@@ -29,7 +29,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Icon name="Phone" className="h-4 w-4" />
-                <span>+7 (999) 123-45-67</span>
+                <span>+7-958-635-89-75 Кира🥰</span>
               </div>
               <div className="flex items-center gap-2">
                 <Icon name="Clock" className="h-4 w-4" />
