@@ -54,7 +54,9 @@ const Contact = () => {
                   <CardContent>
                     {info.details.map((detail, idx) => (
                       <p key={idx} className="text-gray-600">
-                        {detail}
+                        {detail === "+7 (999) 123-45-67"
+                          ? "+7-958-635-89-75"
+                          : detail}
                       </p>
                     ))}
                   </CardContent>
